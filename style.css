@@ -1,0 +1,29 @@
+#snap {
+	margin-left: 5%;
+	width: 10%;
+	height: 50px;
+	border: 3px solid black;
+	display: block;
+	margin-top: 20%;
+	position: absolute;
+}
+
+#delete {
+	width: 10%;
+	height: 50px;
+	border: 3px solid black;
+	display: block;
+	margin-top: 20%;
+	margin-left: 15%;
+	position: absolute;
+}
+
+.handsome {
+	width: 30%;
+	position: absolute;
+}
+
+#paint {
+	width: 30%;
+	position: absolute;
+}
