@@ -19,7 +19,8 @@
 }
 
 .handsome {
-	width: 30%;
+	width: 100vw;
+	height: 100vw;
 	position: absolute;
 }
 
