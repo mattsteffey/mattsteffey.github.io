@@ -5,7 +5,7 @@ const ctx = canvas.getContext('2d');
 
 async function go() {
   // first ask for get user media
-  const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+  const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
   video.srcObject = stream;
 }
 
