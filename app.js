@@ -51,7 +51,7 @@ $.ajax({
         url: "https://api.spotify.com/v1/search?q=" + musicInfo + "&type=album&limit=1",
         headers: {
         Accept: 'application/json',
-        Authorization: 'Bearer BQBjBIT1lMeGA5_37wWqndCmGLqQ93O0kVyvZ_ZubqwUIpTNc_q_5dCsONFB8WZ4Gg3fAiPpLbLzCM8IJdbxOEOhb50paTd2dn9KQuaKp0-XI8gLw799D2mUPepNWwIoKgAY1EUPQ7Bj9c4'
+        Authorization: 'Bearer BQDLtTelgRP_y5rDUcMjapNk5xe20m1SvGkVmHOHqMxtHANhT9JORHv63LhssqlxGx9SyCW-sxj37JELTR-bSbLGuaa9ak9_Ogs60r30KQFEq2Y8fsmf2t6CYctv9qJc2TXuCeP-oW-e9Ak'
 },
           }).done(function(data) {
              window.open(data.albums.items["0"].external_urls.spotify,'_blank');
