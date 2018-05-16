@@ -2,7 +2,7 @@
 	width: 0%;
 	height: 0px;
 	display: block;
-	margin-top: 80%;
+	margin-top: 90%;
 	margin-left: 70%;
 	position: absolute;
 	font-size: 50px;
@@ -12,18 +12,18 @@
 	width: 0%;
 	height: 0px;
 	display: block;
-	margin-top: 80%;
+	margin-top: 90%;
 	margin-left: 20%;
 	position: absolute;
 	font-size: 50px;
 }
 
 .handsome {
-	width: 100vw;
+	width: 70vw;
 	position: absolute;
 }
 
 #paint {
-	width: 100vw;
+	width: 70vw;
 	position: absolute;
 }
